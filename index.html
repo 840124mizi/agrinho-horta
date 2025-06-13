@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Campo e Cidade</title>
+  <style>
+    /* Estilos Globais */
+    :root {
+      --cor-primaria: #2e7d32;
+      --cor-secundaria: #81c784;
+      --cor-texto: #333;
+      --cor-fundo: #f5f5f5;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: var(--cor-texto);
+      background-color: var(--cor-fundo);
+    }
+    
+    /* Cabeçalho */
+    header {
+      background-color: var(--cor-primaria);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    
+    /* Navegação */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 1.5rem 0 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    nav ul li {
+      margin: 0 1rem;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    
+    nav a:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
+    
+    /* Conteúdo Principal */
+    main {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    section {
+      margin-bottom: 3rem;
+    }
+    
+    h2 {
+      color: var(--cor-primaria);
+      border-bottom: 2px solid var(--cor-secundaria);
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+    }
+    
+    /* Artigos */
+    article {
+      margin-bottom: 2.5rem;
+      background-color: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    article:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    h3 {
+      color: var(--cor-primaria);
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+    
+    /* Detalhes/Sumário */
+    details {
+      margin-top: 1rem;
+    }
+    
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0.5rem;
+      background-color: var(--cor-fundo);
+      border-radius: 4px;
+      outline: none;
+    }
+    
+    summary:hover {
+      background-color: #e0e0e0;
+    }
+    
+    details[open] summary {
+      margin-bottom: 1rem;
+    }
+    
+    /* Imagens */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1.5rem auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    /* Rodapé */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: var(--cor-primaria);
+      color: white;
+      margin-top: 2rem;
+    }
+    
+    /* Links */
+    a {
+      color: var(--cor-primaria);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Responsividade */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+      
+      article {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Festejando a Conexão Campo-Cidade</h1>
+    <nav>
+      <ul>
+        <li><a href="#posts">Posts</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="posts">
+      <h2>Últimos Posts</h2>
+
+      <article>
+        <h3>🌾 A Importância de Ter uma Horta em Casa</h3>
+        <details>
+          <summary>Leia mais</summary>
+          <p>Já pensou em ter alimentos frescos, como verduras e legumes, dentro da sua casa? Você sabia que é possível cultivar uma variedade de plantas em ambientes internos? Isso mesmo, você pode criar sua própria hortinha em casa, facilitando o acesso a alimentos mais saudáveis e frescos no dia a dia da sua família. Além de promover uma alimentação mais equilibrada, cultivar sua própria horta pode ser uma experiência gratificante e educativa para todos.</p>
+          
+          <p>As hortas verticais são uma excelente alternativa para quem possui pouco espaço disponível ou até mesmo para quem mora em apartamentos, onde o solo é praticamente inexistente. A construção de uma horta vertical é simples, prática e requer um espaço mínimo. Ela pode ser adaptada conforme as necessidades de cada família, utilizando materiais reutilizáveis e acessíveis, como garrafas PET, canos de PVC ou paletes de madeira.</p>
+          
+          <p>Além de ser uma forma sustentável de cultivo, as hortas verticais também ajudam a melhorar a qualidade do ar e podem transformar ambientes pequenos e simples em espaços mais verdes e agradáveis. Ao adotar essa prática, você não só economiza ao reduzir a compra de vegetais no mercado, como também tem o prazer de colher seus próprios alimentos frescos, sempre com a certeza de que são cultivados de maneira natural e sem agrotóxicos.</p>
+          
+          <p>Investir em uma horta em casa é, portanto, uma maneira prática, econômica e ecológica de promover uma alimentação mais saudável e ainda contribuir para um estilo de vida mais sustentável. Comece com algumas ervas ou alface, e aos poucos você verá como é fácil e gratificante cultivar sua própria comida.</p>
+
+          <img src="imagem.jpg" alt="Horta vertical caseira com diversas plantas">
+        </details>
+      </article>
+
+      <article>
+        <h3>🌾 Mas Como Posso Fazer?</h3>
+        <details>
+          <summary>Leia mais</summary>
+          <p>Mas aí você me pergunta: "Como posso fazer isso? E se não tenho espaço?" A solução é mais simples do que parece: você pode criar uma horta vertical! Com essa alternativa, é possível cultivar alimentos frescos e saudáveis mesmo em ambientes com pouco espaço. E o melhor de tudo é que você não precisa de um grande jardim para começar.</p>
+          
+          <p>Uma horta vertical permite plantar diversas opções de alimentos, como alface, cebolinha, hortelã, manjericão, alecrim, couve, rúcula, cenoura, pepino, pimentão, tomate-cereja e muitas outras verduras e legumes. Essas são apenas algumas ideias, mas você pode cultivar praticamente qualquer planta que se adapte ao seu espaço. O importante é ser criativo e utilizar materiais acessíveis, como garrafas PET, pallets, canos de PVC, entre outros.</p>
+          
+          <p>Além de garantir uma alimentação mais saudável, a horta vertical também proporciona uma conexão maior entre a cidade e o campo. Atualmente, muitas crianças não sabem de onde vêm os alimentos que consomem. Ao introduzir o cultivo de plantas no dia a dia delas, você não só aproxima o campo da cidade, mas também desperta nelas a curiosidade para explorar novos sabores, como o de verduras e legumes, além de incentivar hábitos alimentares mais saudáveis.</p>
+          
+          <p>Essa prática simples também pode ser uma forma de educação ambiental, ao ensinar sobre a importância de produzir alimentos de forma sustentável e natural, sem agrotóxicos. E, para a família, além de economizar na compra de vegetais frescos, a satisfação de colher o que foi plantado em casa é indescritível.</p>
+          
+          <p>Portanto, ao adotar a horta vertical, você resolve o problema do espaço, melhora a alimentação e ainda proporciona uma experiência educativa e enriquecedora para todos da casa. Que tal começar hoje mesmo?</p>
+          
+          <img src="tubo.jpg" alt="Horta vertical feita com tubos de PVC">
+        </details>
+      </article>
+
+      <article>
+        <h3>🚜 A Praticidade de Ter uma Horta em Casa</h3>
+        <details>
+          <summary>Leia mais</summary>
+          <p>Muitas pessoas que vivem em apartamentos nos centros urbanos enfrentam um grande desafio: o espaço. Em muitos casos, é difícil encontrar uma maneira de acomodar uma horta de forma organizada dentro de casa, especialmente para cultivar de maneira biológica os alimentos que consomem. No entanto, existe uma solução prática e eficiente para esse problema: a horta vertical.</p>
+          
+          <p>A horta vertical é uma alternativa moderna e inovadora que utiliza o espaço de maneira inteligente, aproveitando as áreas verticais disponíveis. Ela pode ser montada com vasos, garrafas PET, canos de PVC ou outros recipientes reutilizáveis, permitindo o cultivo de hortaliças, plantas e até flores, tudo de forma compacta e acessível. Essa técnica maximiza o uso do espaço, tornando-a ideal para quem tem pouco espaço disponível, como os moradores de apartamentos.</p>
+          
+          <p>Além de ser uma solução eficiente, a horta vertical também permite cultivar uma grande variedade de alimentos, desde verduras e temperos até legumes mais robustos, tudo com um investimento inicial baixo. E o melhor de tudo: você pode produzir alimentos de maneira orgânica, sem o uso de agrotóxicos, garantindo uma alimentação mais saudável para a sua família.</p>
+          
+          <p>Um exemplo de aplicação dessa horta vertical é em paredes amplas de condomínios ou até varandas pequenas, onde é possível cultivar os próprios legumes e temperos para o consumo diário. Isso não só facilita o acesso a alimentos frescos e saudáveis, mas também promove uma maior sustentabilidade no seu dia a dia.</p>
+          
+          <p>Além dos benefícios práticos, a criação de uma horta vertical também traz aspectos educativos e emocionais. Ao cultivar seus próprios alimentos, você cria uma conexão mais profunda com a natureza, ensina às crianças o processo de cultivo e colheita, e promove um estilo de vida mais consciente e ecológico.</p>
+          
+          <p>Portanto, a horta vertical não é apenas uma solução para o problema do espaço, mas também uma maneira inteligente de transformar seu ambiente e tornar sua alimentação mais saudável, sustentável e autossuficiente.</p>
+          
+          <img src="flores.jpg" alt="Horta vertical instalada em parede de apartamento">
+        </details>
+      </article>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Este blog é dedicado à valorização das conexões entre o campo e a cidade, celebrando sua interdependência por meio da educação, cultura e sustentabilidade. Acreditamos que a aproximação entre esses dois universos pode trazer benefícios mútuos e contribuir para uma sociedade mais equilibrada e sustentável.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Envie sugestões, dúvidas ou contribuições pelo e-mail: <a href="mailto:conexaocampocidade@email.com">conexaocampocidade@email.com</a> ou através do nosso formulário de contato em breve disponível.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Blog Campo-Cidade | Desenvolvido com ♥ para promover a sustentabilidade</p>
+  </footer>
+</body>
+</html>
